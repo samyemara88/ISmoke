@@ -1,0 +1,256 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+  <!--***************************   slider   ************************************-->
+<section id="main-slider" class="no-margin">
+    <div class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#main-slider" data-slide-to="1"></li>
+            <li data-target="#main-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active" style="background-image: url('@Url.Content("~/Content/User/images/images.jpg")')">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                                <h1 class="animation animated-item-1">Si vous ne fumez pas, ne vapotez pas</h1>
+                                <h2 class="animation animated-item-2">Parce que vous êtes fumeur et ...</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Savoir plus ..</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('@Url.Content("~/Content/User/images/ecigar.jpg")')">
+
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                                <h1 class="animation animated-item-1">Economiser votre budget </h1>
+                                <h2 class="animation animated-item-2">Très économique, avec la cigarette electronique, votre budget est divisé au minimum par 5</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('@Url.Content("~/Content/User/images/ko.jpg")')">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                                <h1 class="animation animated-item-1">LA CIGARETTE ÉLECTRONIQUE EST-ELLE PLUS NOCIVE QUE LE TABAC</h1>
+                                <h2 class="animation animated-item-2">Avec la cigarette électronique il n’y a pas de production de goudron ni de combustion...</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+    </a>
+    <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+    </a>
+</section>
+<!--********************************fin slider  ********************************-->
+
+
+<div class="jumbotron">
+    <div class="container body-content">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="center wow fadeInDown">
+                    <h2>Catégories</h2>
+                </div>
+                <div class="col-xs-6 col-md-3">
+
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="@Url.Content("~/Content/User/")images/fruit.png" />
+                            <h3>Fruits Arôme</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- 2 -->
+                <div class="col-xs-6 col-md-3">
+
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="@Url.Content("~/Content/User/")images/gourmande.png" />
+                            <h3>Gourmande</h3>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- 3-->
+                <div class="col-xs-6 col-md-3">
+
+                    <div class="center wow fadeInDown">
+                        <div class="front">
+                            <img src="@Url.Content("~/Content/User/")images/complex.png" />
+                            <h3>Complexe</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 4-->
+
+                <div class="col-xs-6 col-md-3">
+
+                    <div class="front">
+
+                        <img src="@Url.Content("~/Content/User/")images/tabac.png" />
+                        <h3>Tabac</h3>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <!---<hr />********************************************************************************************-->
+
+
+    <section id="services" class="service-item">
+        <div class="container">
+            <div class="center wow fadeInDown">
+                <h2>Produits</h2>
+                <p class="lead"> un texte de description.</p>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="@Url.Content("~/Content/User/")images/pêche.png">
+                        <div class="caption">
+                            <h4 class="text-white text-bold">Pêche-arome</h4>
+                            <h3>7.50 €</h3>
+                            <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
+                            <p><a href="#" class="btn btn-sm btn-success" role="button">Détails</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="@Url.Content("~/Content/User/")images/Citrône.png">
+                        <div class="caption">
+                            <h4 class="text-white text-bold">Citrône-arome</h4>
+                            <h3>7.50 €</h3>
+                            <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
+                            <p><a href="#" class="btn btn-sm btn-success" role="button">Détails</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="@Url.Content("~/Content/User/")images/frmaboise.png">
+                        <div class="caption">
+                            <h4 class="text-white text-bold">Frmaboise-arome</h4>
+                            <h3> 8.00 €</h3>
+                            <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
+                            <p><a href="#" class="btn btn-sm btn-success" role="button">Détails</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="@Url.Content("~/Content/User/")images/grenadine.png">
+                        <div class="caption">
+                            <h4 class="text-white text-bold">Grenadine-arome</h4>
+                            <h3> 6.75 €</h3>
+                            <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
+                            <p><a href="#" class="btn btn-sm btn-success" role="button">Détails</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+
+        <!--2eme produits-->
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="@Url.Content("~/Content/User/")images/pêche.png">
+                        <div class="caption">
+                            <h4 class="text-white text-bold">Pêche-arome</h4>
+                            <h3>7.50 €</h3>
+                            <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
+                            <p><a href="#" class="btn btn-sm btn-success" role="button">Détails</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="@Url.Content("~/Content/User/")images/Citrône.png">
+                        <div class="caption">
+                            <h4 class="text-white text-bold">Citrône-arome</h4>
+                            <h3>7.50 €</h3>
+                            <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
+                            <p><a href="#" class="btn btn-sm btn-success" role="button">Détails</a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="@Url.Content("~/Content/User/")images/frmaboise.png">
+                        <div class="caption">
+                            <h4 class="text-white text-bold">Frmaboise-arome</h4>
+                            <h3> 8.00 €</h3>
+                            <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
+                            <p><a href="#" class="btn btn-sm btn-success" role="button">Détails</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="@Url.Content("~/Content/User/")images/grenadine.png">
+                        <div class="caption">
+                            <h4 class="text-white text-bold">Grenadine-arome</h4>
+                            <h3> 6.75 €</h3>
+                            <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
+                            <p><a href="#" class="btn btn-sm btn-success" role="button">Détails</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        <div class="center wow fadeInDown"></div>
+
+
+    </section>

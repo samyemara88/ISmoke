@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - I smoke</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="@Url.Content("~/Content/User/")css/main.css"  
+          rel="stylesheet">
+    @RenderSection("head",false)
+</head>
+<body>
+    
+  @RenderBody()
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("I Smoke", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Details",  "Categories")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    
+
+
+            <section id="bottom">
+                <br />
+                <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Boutique</h3>
+                                <ul>
+                                    <li><a href="#">Qui somme nous</a></li>
+                                    <li><a href="#">Nos produits</a></li>
+                                    <li><a href="#">Ventes flash</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Informations</h3>
+                                <ul>
+                                    <li><a href="#">Promotions</a></li>
+                                    <li><a href="#">Nouveaux produits</a></li>
+                                    <li><a href="#">Meilleures ventes</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Catégories</h3>
+                                <ul>
+                                    <li><a href="#">Fruits-arôme</a></li>
+                                    <li><a href="#">Tabac</a></li>
+                                    <li><a href="#">Gormande</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Accesoires</h3>
+                                <ul>
+                                    <li><a href="#">E-cigar jetable</a></li>
+                                    <li><a href="#">Batterie</a></li>
+                                    <li><a href="#">Clearomiseur</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
+       
+            <footer id="footer" class="midnight-blue">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-6" class="icon-footer">
+                            <ul class="col-sm-12 col-sm-push-6 monBlock">
+                                <li class="li">
+                                    <img src="@Url.Content("~/Content/User/")images/pics/logo/fb.png" alt="Facebook" />
+                                </li>
+                                <li class="li">
+                                    <img src="@Url.Content("~/Content/User/")images/pics/logo/twitter.png" alt="Twitter" />
+                                </li>
+                                <li class="li">
+                                    <img src="@Url.Content("~/Content/User/")images/pics/logo/yt.png" alt="YouTube" />
+                                </li>
+                                <li class="li">
+                                    <img src="@Url.Content("~/Content/User/")images/pics/logo/snap.png" alt="Snap" />
+                                </li>
+                                <li class="li">
+                                    <img src="@Url.Content("~/Content/User/")images/pics/logo/google.png" alt="Google" />
+                                </li>
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="copyright">
+                            <center><br>Copyright © 2017 tous Droits Réservés<br>Réalisé par : Imade</center>
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+
+
+
+</body>
+</html>

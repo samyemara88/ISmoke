@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Smoke.Models.Commande>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdCmd }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdCmd }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdCmd })
+        </td>
+    </tr>
+}
+
+</table>

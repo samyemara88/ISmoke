@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+	<title>I SMOKE</title>
+   </head>
+
+<body class="homepage">
+
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                </div>
+           </div>
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/pics/logo.png"  width ="150px" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Accueil</a></li>
+                        <li><a href="#">Nos Produits</a></li>
+                        <li><a href="#">Nous connaitre</a></li>
+                        <li><a href="#">Partenaires</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Spécialités <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Site web </a></li>
+                                <li><a href="#">Application mobile</a></li>
+                                <li><a href="#">Référencement </a></li>
+                                <li><a href="#">Graphisme</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Tarif</a></li> 
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+		<!---->
+		 <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Contactez-nous</h4>
+        </div>
+        <div class="modal-body">
+          
+<form class="well span8">
+  <div class="row">
+    	<div class="">
+			<label>Nom </label>
+			<input type="text" class="span3" ><br><br>
+			<label>Prénom </label>
+			<input type="text" class="span3" ><br><br>
+			<label>Email Address </label>
+			<input type="text" class="span3" ><br><br>
+			
+			
+		</div>
+		<div class="span5">
+			<label>Message</label>
+			<textarea name="message" id="message" class="input-xlarge span5" rows="4"></textarea>
+		</div>
+	
+		<button type="submit" class="btn btn-primary pull-right">Envoyer</button>
+	</div>
+</form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+		<!---->
+    </header>
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url(images/pics/images.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Conseil & expertise</h1>
+                                    <h2 class="animation animated-item-2">Audite de site ...</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Savoir plus ..</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                 
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(images/pics/ecigar.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Maintenance et refonte de site </h1>
+                                    <h2 class="animation animated-item-2">Modifications et correction du site web basés sur votre feedback</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(images/pics/ko.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Marketing des media sociiaux</h1>
+                                    <h2 class="animation animated-item-2">appliquer une stratégie de Marketing de contenu et rédiger des textes...</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+    </section>
+
+    <section id="feature" >
+        <div class="container">
+           <div class="center wow fadeInDown">
+                <h2>Spécialité</h2>
+                <p class="lead">S2Isoft propose different services informatiques <br> </p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-pencil-square-o" ></i>
+                            <h2>Création sites Web</h2>
+                            <h3>Ismoke vous accompagne pour la réalisation de votre site ou application  </h3>
+                        </div>
+                    </div>
+
+                  <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-comments"></i>
+                            <h2>Web Design</h2>
+                            <h3>Notre équipe de designers unifie votre image </h3>
+                        </div>
+                    </div>
+
+                   <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-cloud-download"></i>
+                            <h2>Applications mobiles</h2>
+                            <h3>Ismoke peut répondre à tous types d’applications Web & Mobile</h3>
+                        </div>
+                    </div>
+                
+                
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section id="recent-works">
+        <div class="container">
+            <div class="center wow fadeInDown">
+                <h2>Nos catégories </h2>
+                <p class="lead">Voici nos différentes catégories que nous vous proposons de la gamme ISmoke..</p>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/pics/images c.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">E-Cigarettes</a> </h3>
+                                <p>Vente matériaux informatique </p>
+                                <a class="preview" href="images/pics/images c.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i>View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/pics/eliquides.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">E-Liquides</a></h3>
+                                <p>Agence de voyage</p>
+                                <a class="preview" href="images/pics/eliquides.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/pics/accesoires.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Accecoires</a></h3>
+                                <p>TShopping en ligne</p>
+                                <a class="preview" href="images/pics/accesoires.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/pics/packs.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Packs </a></h3>
+                                <p>Transport & déménagement</p>
+                                <a class="preview" href="images/pics/packs.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+                              
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="service-item">
+	   <div class="container">
+            <div class="center wow fadeInDown">
+                <h2>Nos Produits</h2>
+                <p class="lead"> S2Isoft une agence énergique, créative et efficace qui vous accompagne pour construire la stratégie digitale adaptée à vos besoins et pour améliorer votre notoriété.</p>
+            </div>
+  <div class="row">
+
+		<div class="col-xs-6 col-md-3">
+			<div class="thumbnail">
+			<img src="images/pics/predator.jpg" alt="Boats at Phi Phi, Thailand">
+				<div class="caption">
+				<h4 class="text-white text-bold">Création site web</h4>
+				<p>L'objectif de notre equipe est de créer des sites web performants qui donne de la visibilité  total à votre entreprise et apporte un réel retour sur investissement .<br> </p>
+				<p><a href="#" class="btn btn-primary" role="button">En savoir plus +</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<div class="thumbnail">
+			<img src="images/pics/svc.jpg" alt="Resort at Boracay, Philippines">
+				<div class="caption">
+				<h4 class="text-white text-bold">Application mobile</h4>
+				<p>Ismoke peut répondre à tous les types de programmation d’applications Web.Il nous fera plaisir de vous aider à déterminer la nature de vos besoins </p>
+				<p><a href="#" class="btn btn-primary" role="button">En savoir plus +</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<div class="thumbnail">
+			<img src="images/pics/cigarette.jpg" alt="Rob Roy Glacier near Wanaka, New Zealand">
+				<div class="caption">
+				<h4 class="text-white text-bold">Refonte de votre site Internet</h4>
+				<p>Votre site Web aurait-il sérieusement besoin d’une mise à jour? Parce que les tendances et technologies du Web et du design évoluent très rapidement,</p>
+				<p><a href="#" class="btn btn-primary" role="button">En savoir plus +</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<div class="thumbnail">
+			<img src="images/pics/aspire.jpg" alt="Views near Rob Roy Glacier">
+				<div class="caption">
+				<h4 class="text-white text-bold">Marketing de contenu</h4>
+				<p>Ismoke offre un service de rédaction web et de Marketing de contenu pour augmenter la visibilité des sites web des PME afin de générer plus de clients</p>
+				<p><a href="#" class="btn btn-primary" role="button">En savoir plus +</a></p>
+				</div>
+			</div>
+		</div>
+
+</div>
+
+</div>
+
+          
+        </div>
+    </section>
+
+
+
+  <!------le bas de page ---->
+   
+    <section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Agence</h3>
+                        <ul>
+                            <li><a href="#">Qui somme nous</a></li>
+                            <li><a href="#">Nos services</a></li>
+                            <li><a href="#">Réalisations</a></li>
+                           
+                        </ul>
+                    </div>    
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Infos</h3>
+                        <ul>
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Forum</a></li>
+                            
+                        </ul>
+                    </div>    
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Développeurs</h3>
+                        <ul>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">SEO Marketing</a></li>
+                            <li><a href="#">Theme</a></li>
+                            
+                        </ul>
+                    </div>    
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Nos partenaires</h3>
+                        <ul>
+                            <li><a href="#">Atos</a></li>
+                            <li><a href="#">Emc2</a></li>
+                            <li><a href="#">Fnac</a></li>
+                            
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+		
+		
+		
+
+    </section>
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+				
+		<div class="col-sm-6" class="icon-footer">
+            <ul class="col-sm-12 col-sm-push-6 monBlock">
+			 <li  class="li">
+				<img  src="images/pics/logo/fb.png" alt="Facebook"  />
+			</li>
+			<li   class="li">
+				<img  src="images/pics/logo/twitter.png" alt="Twitter"  />
+			</li>
+			<li  class="li">
+				<img  src="images/pics/logo/yt.png" alt="YouTube"  />
+			</li>
+			<li  class="li">
+				<img  src="images/pics/logo/snap.png" alt="Snap"  />
+			</li>
+			<li  class="li">
+				<img  src="images/pics/logo/google.png" alt="Google"  />
+			</li>
+			 </ul>
+                            
+		</div>
+				
+				
+         </div>
+        </div>
+		
+		
+	
+		 <div class="footer-bottom">
+        <div class="container">
+            <div class="copyright"><center><br>Copyright © 2017 tous Droits Réservés<br>Réalisé par : Imade</center>
+             
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+</body>
+</html>
